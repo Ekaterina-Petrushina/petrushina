@@ -11,11 +11,13 @@ int main() {
         ++v1;
     }
 }
-else{std::cout<<"range betwen " << v2<< " and "<< v1<< std::endl;
+else{
+    std::cout<<"range betwen " << v2<< " and "<< v1<< std::endl;
     while (s < v1-1) {
         s=v2+1;
         std::cout << s <<" ";
         ++v2;
-    }}
+    }
+}
     return 0;
 }
